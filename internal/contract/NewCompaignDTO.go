@@ -1,6 +1,6 @@
-package contact
+package contract
 
-type NewCompaignDTO struct {
+type NewCampaign struct {
 	Name    string
 	Content string
 	Email   []string

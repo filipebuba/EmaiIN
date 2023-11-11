@@ -5,6 +5,5 @@ POST http://localhost:3000/campaigns
 "content": "This is the content of the campaign",
 "email": ["test@example.com"]
 }
-
 ###
 GET http://localhost:3000/campaigns

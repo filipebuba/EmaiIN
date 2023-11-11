@@ -1,1 +1,10 @@
-GET http://localhost:3000/
+POST http://localhost:3000/campaigns
+
+{
+"name": "Campa 2",
+"content": "This is the content of the campaign",
+"email": ["test@example.com"]
+}
+
+###
+GET http://localhost:3000/campaigns
